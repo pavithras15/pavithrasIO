@@ -1,15 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  images: {
-    unoptimized: true,
-  },
-  devIndicators: false,
-}
+  output: 'export',
+  basePath: '/pavithrasIO',      // your repo name
+  assetPrefix: '/pavithrasIO/',  // your repo name
+  images: { unoptimized: true }, // if using next/image
+  devIndicators: false // disables dev tools UI
+};
 
-export default nextConfig
+export default nextConfig;
