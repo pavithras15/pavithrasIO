@@ -1,2 +1,0 @@
-# pavithrasIO
-My portfolio
